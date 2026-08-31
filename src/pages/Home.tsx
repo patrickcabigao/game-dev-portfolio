@@ -1,9 +1,9 @@
-import Navbar from "../common/Navbar";
+import Page from "./Page";
 
 export default function Home(): React.ReactNode {
     return (
-        <div className="home">
-            <Navbar/>
-        </div>
+        <Page>
+            <p>fjdkfjdsl</p>
+        </Page>
     );
 }

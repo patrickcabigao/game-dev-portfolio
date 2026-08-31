@@ -1,5 +1,10 @@
-export default function Logs(): React.ReactNode {
+import Page from "./Page";
+
+const Logs = (): React.ReactNode => {
     return (
-        <p>fjdklfds</p>
+        <Page>
+            <p>fjdkfsd</p>
+        </Page>
     );
 }
+export default Logs;

@@ -23,7 +23,7 @@
 .page h1 {
     width: 100%;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 nav {
@@ -96,7 +96,7 @@ nav a:hover {
     border-width: 2px;
     border-style: solid;
     border-color: #334;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .log-header {

@@ -1,9 +1,13 @@
 import Page from "./Page";
 
-export default function Home(): React.ReactNode {
+const Home = (): React.ReactNode => {
     return (
         <Page>
-            <p>fjdkfjdsl</p>
+            <h1>Welcome!</h1>
+            <p>Hi i'm patrick please pleaseeeeeee please brian i love websites webpage</p>
+            <h1>What does he even do</h1>
+            <p>Idk</p>
         </Page>
     );
 }
+export default Home;

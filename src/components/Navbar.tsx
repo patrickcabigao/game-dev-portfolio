@@ -6,7 +6,6 @@ export default function Navbar(): React.ReactNode {
                 <li><a href="/">Home</a></li>
                 <li><a href="/games">Games</a></li>
                 <li><a href="/logs">Logs</a></li>
-                <li><a href="/aboutme">About Me</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>

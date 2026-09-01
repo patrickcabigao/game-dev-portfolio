@@ -3,7 +3,6 @@ import './App.css';
 import Home from './pages/Home.tsx';
 import Games from './pages/Games.tsx';
 import Logs from './pages/Logs.tsx';
-import AboutMe from './pages/AboutMe.tsx';
 import Contact from './pages/Contact.tsx';
 
 const App = (): React.ReactNode =>  {
@@ -12,7 +11,6 @@ const App = (): React.ReactNode =>  {
             <Route path="/" element={<Home/>}/>
             <Route path="/games" element={<Games/>}/>
             <Route path="/logs" element={<Logs/>}/>
-            <Route path="/aboutme" element={<AboutMe/>}/>
             <Route path="/contact" element={<Contact/>}/>
         </Routes>
     );

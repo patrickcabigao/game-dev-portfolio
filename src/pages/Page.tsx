@@ -1,4 +1,4 @@
-import Navbar from "../common/Navbar";
+import Navbar from "../components/Navbar";
 
 const Page = ({ children }: {children: React.ReactNode}): React.ReactNode => {
     return (

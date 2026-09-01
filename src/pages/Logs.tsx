@@ -6,12 +6,8 @@ const Logs = (): React.ReactNode => {
         <Page>
             <h1>Logs</h1>
 
-            <Log title="Hi" date="August 31, 2026">
-                My life is sooooo hard.
-            </Log>
-
-            <Log title="Fade my day ones" date="August 31, 2026">
-                Fade my day ones my day one ahh day ones
+            <Log title="First Log" date="August 31, 2026">
+                I'm hoping to use these logs as a way to talk about how progress has been on my games so far. Nothing here yet, though. :)
             </Log>
 
         </Page>

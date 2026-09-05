@@ -4,6 +4,7 @@ import Home from './pages/Home.tsx';
 import Games from './pages/Games.tsx';
 import Logs from './pages/Logs.tsx';
 import Contact from './pages/Contact.tsx';
+import About from './pages/About.tsx';
 
 const App = (): React.ReactNode =>  {
     return (
@@ -11,6 +12,7 @@ const App = (): React.ReactNode =>  {
             <Route path="/" element={<Home/>}/>
             <Route path="/games" element={<Games/>}/>
             <Route path="/logs" element={<Logs/>}/>
+            <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
         </Routes>
     );

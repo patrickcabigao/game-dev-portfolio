@@ -2,6 +2,7 @@ import Page from './Page';
 import itchLogo from '../assets/itchio-logo.svg';
 import githubLogo from '../assets/github-logo.svg';
 import linkedinLogo from '../assets/linkedin-logo.svg';
+import ContactForm from '../components/ContactForm';
 
 export default function Contact(): React.ReactNode {
     return (
@@ -27,6 +28,10 @@ export default function Contact(): React.ReactNode {
                     <a href="https://www.linkedin.com/in/patrick-cabigao-a4560629b/">LinkedIn</a>
                 </li>
             </ul>
+
+            <br/>
+            <p>Alternatively, you can use my contact form:</p>
+            <ContactForm/>
         </Page>
     );
 }

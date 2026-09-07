@@ -1,4 +1,4 @@
-import Page from "./Page";
+import Page from "../components/Page";
 import Log from "../components/Log";
 
 const Logs = (): React.ReactNode => {

@@ -1,4 +1,5 @@
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Page = ({ children }: {children: React.ReactNode}): React.ReactNode => {
     return (
@@ -7,6 +8,7 @@ const Page = ({ children }: {children: React.ReactNode}): React.ReactNode => {
             <div className="page">
                 {children}
             </div>
+            {/* <Footer/> */}
         </>
     );
 }

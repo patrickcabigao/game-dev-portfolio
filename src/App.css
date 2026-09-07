@@ -34,13 +34,15 @@
 }
 
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: auto;
     padding: 2rem;
     height: 10vh;
-    background-color: rgba(5, 5, 8, 0.8);
+    background-color: rgba(5, 5, 8, 0.7);
     border-bottom-color: #779;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -65,6 +67,14 @@ nav a:hover {
     justify-content: space-evenly;
     list-style-type: none;
     gap: 2rem;
+}
+
+footer {
+    padding: 1rem;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #222;
+    background-color: #111;
 }
 
 body:has(.homepage) {
@@ -103,16 +113,56 @@ body:has(.homepage) {
     display: none;
 }
 
+.jam-games-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.jam-games-heading h1 {
+    margin-bottom: 0;
+}
+
 .jam-games {
     margin: 2rem 0;
     list-style-type: none;
 }
 
-.jam-games li {
+.game-card {
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #223;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #334;
+    margin-bottom: 2rem;
+    gap: 1rem;
 }
 
-.jam-games iframe {
+.vertical-rule {
+    border-style: solid;
+    border-width: 1px;
+    height: 192px;
+    border-color: #334;
+}
+
+.game-card :is(img, a) {
+    height: 192px;
+}
+
+.game-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.itch-embed {
     margin: 1rem 0;
     border-color: #111;
 }
@@ -154,12 +204,12 @@ body:has(.homepage) {
     gap: 0.5rem;
 }
 
-.contact-form label, input, textarea {
+.contact-form :is(label, input, textarea) {
     font-family: "DM Mono";
     font-size: 1rem;
 }
 
-.contact-form input, textarea {
+.contact-form :is(input, textarea) {
     background-color: #222;
     border-color: #333;
     border-style: solid;
@@ -190,7 +240,7 @@ body:has(.homepage) {
     background-color: #223;
     width: 100%;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border-width: 2px;
     border-style: solid;
     border-color: #334;

@@ -1,4 +1,4 @@
-import Page from './Page';
+import Page from '../components/Page';
 import itchLogo from '../assets/itchio-logo.svg';
 import githubLogo from '../assets/github-logo.svg';
 import linkedinLogo from '../assets/linkedin-logo.svg';

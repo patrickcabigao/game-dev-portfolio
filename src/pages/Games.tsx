@@ -4,7 +4,6 @@ import tardigradeGameVideo from "../assets/tardigrade-game-preview.mp4";
 import twistedSpindustryThumbnail from "../assets/twisted-spindustry-thumbnail.png";
 import darkSparkThumbnail from "../assets/dark-spark-thumbnail.png";
 import robsterTheLobsterThumbnail from "../assets/robster-the-lobster-thumbnail.png";
-import RobsterTheLobster from "./RobsterTheLobster";
 
 const Games = (): React.ReactNode => {
     return (

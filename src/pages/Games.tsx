@@ -24,6 +24,8 @@ const Games = (): React.ReactNode => {
         <p>
             I plan to have a demo out with four levels by the end of September 2026, and when it's ready I hope you'll enjoy it!
         </p>
+        
+        <hr/>
 
         <div className="jam-games-heading">
             <h1>My proudest game jam games!</h1>
@@ -35,6 +37,9 @@ const Games = (): React.ReactNode => {
                 <GameCard gameLink="games/twisted-spindustry" title="Twisted Spindustry" thumbnailSource={twistedSpindustryThumbnail}>
                     Made solo for the UCSB Game Development Club's Winter 2026 Jam's theme, "Spin to Win".
                     Play as a sign spinner taking down the rival pizza store!
+                    <br/><br/>
+                    This project was developed using the Godot game engine, along with Aseprite for pixel art,
+                    jsfxr for sound effects, and BeepBox for music production.
                 </GameCard>
             </li>
 

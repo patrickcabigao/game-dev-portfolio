@@ -33,6 +33,10 @@
     align-items: center;
 }
 
+hr {
+    margin-top: 2rem;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -147,7 +151,8 @@ body:has(.homepage) {
 .vertical-rule {
     border-style: solid;
     border-width: 1px;
-    height: 192px;
+    min-height: 192px;
+    height: auto;
     border-color: #334;
 }
 
@@ -252,4 +257,28 @@ body:has(.homepage) {
     width: 100%;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.game-page-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.game-page-layout div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-page-layout li {
+    margin-left: 1rem;
+}
+
+.game-embed {
+    border-color: #111;
+    border-width: 0;
+    border-style: solid;
 }

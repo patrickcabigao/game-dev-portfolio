@@ -282,3 +282,9 @@ body:has(.homepage) {
     border-width: 0;
     border-style: solid;
 }
+
+.about-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
